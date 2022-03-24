@@ -74,6 +74,7 @@ namespace TaxCalculator.ConsoleApp
                     Console.ReadLine();
                     return true;
                 case "2":
+                    Console.Write("Enter the municipality name: ");
                     return true;
                 case "3":
                     return true;
