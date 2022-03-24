@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TaxCalculator.Bl/1.0.0": {
+        "dependencies": {
+          "TaxCalculator.Entities": "1.0.0"
+        },
+        "runtime": {
+          "TaxCalculator.Bl.dll": {}
+        }
+      },
+      "TaxCalculator.Entities/1.0.0": {
+        "runtime": {
+          "TaxCalculator.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaxCalculator.Bl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaxCalculator.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

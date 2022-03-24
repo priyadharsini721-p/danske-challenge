@@ -1,0 +1,9 @@
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.deps.json
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.dll
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.pdb
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\obj\Debug\netcoreapp3.1\TaxCalculator.Entities.GeneratedMSBuildEditorConfig.editorconfig
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\obj\Debug\netcoreapp3.1\TaxCalculator.Entities.AssemblyInfoInputs.cache
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\obj\Debug\netcoreapp3.1\TaxCalculator.Entities.AssemblyInfo.cs
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\obj\Debug\netcoreapp3.1\TaxCalculator.Entities.csproj.CoreCompileInputs.cache
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\obj\Debug\netcoreapp3.1\TaxCalculator.Entities.dll
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Entities\obj\Debug\netcoreapp3.1\TaxCalculator.Entities.pdb
