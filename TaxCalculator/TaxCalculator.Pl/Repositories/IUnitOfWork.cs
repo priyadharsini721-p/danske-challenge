@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Municipalities = TaxCalculator.Entities.Municipalities;
+using Entity = TaxCalculator.Entities;
 
 namespace TaxCalculator.Pl.Repositories
 {
     public interface IUnitOfWork
     {
-        Task<Municipalities> CalculateTax(Municipalities data);
+        Task<Entity.Municipalities> CalculateTax(Entity.Municipalities data);
         Task<bool> CheckIfExists(string municipalityName);
+        Task<Entity.Municipalities> GetDetails(string municipalityName, string taxRuleId);
+        Task<Entity.Lookup> GetLookup();
+        Task<bool> AddDetails(Entity.Municipalities data);
+        Task<bool> UpdateDetails(Entity.Municipalities data);
     }
 }

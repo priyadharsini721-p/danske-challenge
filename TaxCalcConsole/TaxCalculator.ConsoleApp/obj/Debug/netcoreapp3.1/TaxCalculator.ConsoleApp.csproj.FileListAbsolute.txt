@@ -1,4 +1,3 @@
-F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\obj\Debug\netcoreapp3.1\TaxCalculator.ConsoleApp.csproj.AssemblyReference.cache
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\obj\Debug\netcoreapp3.1\TaxCalculator.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\obj\Debug\netcoreapp3.1\TaxCalculator.ConsoleApp.AssemblyInfoInputs.cache
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\obj\Debug\netcoreapp3.1\TaxCalculator.ConsoleApp.AssemblyInfo.cs

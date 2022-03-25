@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 using TaxCalculator.Bl.Calculation;
 using TaxCalculator.Dal.Models;
 using TaxCalculator.Dal.Repositories;
+using TaxCalculator.Entities;
 using TaxCalculator.Pl.FormatException;
-using Municipalities = TaxCalculator.Entities.Municipalities;
+using Entity = TaxCalculator.Entities;
 
 namespace TaxCalculator.Pl.Repositories
 {
@@ -24,20 +25,23 @@ namespace TaxCalculator.Pl.Repositories
             _logger = logger;
         }
 
-        public async Task<Municipalities> CalculateTax(Municipalities data)
+        public async Task<Entity.Municipalities> CalculateTax(Entity.Municipalities data)
         {
-            Municipalities municipalities = null;
+            Entity.Municipalities municipalities = null;
             try
             {
                 DalProcessor _repo = new DalProcessor(_context);
-                List<Municipalities> lstMunicipalities = await _repo.GetMunicipalityTaxDetails(data.MunicipalityId, data.Date);
+                List<Entity.Municipalities> lstMunicipalities = await _repo.GetMunicipalityTaxDetails(data.MunicipalityName, data.Date);
                 int taxRule = 0;
                 double tax = TaxCalculationProcessor.CalculateTax(lstMunicipalities, out taxRule);
-                municipalities = new Municipalities
+                if (tax > 0)
                 {
-                    Tax = tax,
-                    TaxRule = taxRule
-                };
+                    municipalities = new Entity.Municipalities
+                    {
+                        Tax = tax,
+                        TaxRule = taxRule
+                    };
+                }
             }
             catch(Exception ex)
             {
@@ -52,6 +56,62 @@ namespace TaxCalculator.Pl.Repositories
             {
                 DalProcessor _repo = new DalProcessor(_context);
                 return await _repo.CheckIfExists(municipalityName);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation(ex.GetExceptionFootprints());
+            }
+            return false;
+        }
+
+        public async Task<Entity.Municipalities> GetDetails(string municipalityName, string taxRuleId)
+        {
+            try
+            {
+                DalProcessor _repo = new DalProcessor(_context);
+                return await _repo.GetDetails(municipalityName, taxRuleId);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation(ex.GetExceptionFootprints());
+            }
+            return null;
+        }
+
+        public async Task<Lookup> GetLookup()
+        {
+            try
+            {
+                DalProcessor _repo = new DalProcessor(_context);
+                return await _repo.GetLookup();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation(ex.GetExceptionFootprints());
+            }
+            return null;
+        }
+
+        public async Task<bool> UpdateDetails(Entity.Municipalities data)
+        {
+            try
+            {
+                DalProcessor _repo = new DalProcessor(_context);
+                return await _repo.UpdateDetails(data);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogInformation(ex.GetExceptionFootprints());
+            }
+            return false;
+        }
+
+        public async Task<bool> AddDetails(Entity.Municipalities data)
+        {
+            try
+            {
+                DalProcessor _repo = new DalProcessor(_context);
+                return await _repo.AddDetails(data);
             }
             catch (Exception ex)
             {
