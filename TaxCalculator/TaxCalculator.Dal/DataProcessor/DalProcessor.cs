@@ -143,6 +143,7 @@ namespace TaxCalculator.Dal.Repositories
 
                     _context.Municipalities.Update(record);
                     await _context.SaveChangesAsync();
+                    return true;
                 }
             }
             catch { throw; }
