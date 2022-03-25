@@ -14,12 +14,9 @@ namespace TaxCalculator.Api.Controllers
     [ApiController]
     public class TaxCalculatorController : ControllerBase
     {
-        private readonly TaxCalculatorDBContext _context;
         private readonly IUnitOfWork _repository;
-
-        public TaxCalculatorController(TaxCalculatorDBContext context, IUnitOfWork repository)
+        public TaxCalculatorController(IUnitOfWork repository)
         {
-            _context = context;
             _repository = repository;
         }
 

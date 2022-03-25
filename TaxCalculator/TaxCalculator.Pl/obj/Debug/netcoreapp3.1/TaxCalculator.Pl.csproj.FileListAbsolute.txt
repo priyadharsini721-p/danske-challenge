@@ -3,8 +3,10 @@ F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\n
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Pl.pdb
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Bl.dll
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Dal.dll
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.dll
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Bl.pdb
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Dal.pdb
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.pdb
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\netcoreapp3.1\TaxCalculator.Pl.csproj.AssemblyReference.cache
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\netcoreapp3.1\TaxCalculator.Pl.GeneratedMSBuildEditorConfig.editorconfig
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\netcoreapp3.1\TaxCalculator.Pl.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\n
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\netcoreapp3.1\TaxCalculator.Pl.csproj.CopyComplete
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\netcoreapp3.1\TaxCalculator.Pl.dll
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\obj\Debug\netcoreapp3.1\TaxCalculator.Pl.pdb
-F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.dll
-F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalculator\TaxCalculator.Pl\bin\Debug\netcoreapp3.1\TaxCalculator.Entities.pdb

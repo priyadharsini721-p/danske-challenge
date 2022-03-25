@@ -34,3 +34,4 @@ F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\bi
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\bin\Debug\netcoreapp3.1\Serilog.dll
 F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+F:\F Drive\Priya Docs\POC\Danske\Code\TaxCalcConsole\TaxCalculator.ConsoleApp\obj\Debug\netcoreapp3.1\TaxCalculator.ConsoleApp.csproj.AssemblyReference.cache
